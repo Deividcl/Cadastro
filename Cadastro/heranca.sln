@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "heranca", "heranca\heranca.csproj", "{4239812D-989D-446C-8DEA-5F9939A102F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "herancaTeste", "herancaTeste\herancaTeste.csproj", "{B29A2182-1BDE-4AC2-8EE4-31593AEAE039}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4239812D-989D-446C-8DEA-5F9939A102F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4239812D-989D-446C-8DEA-5F9939A102F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4239812D-989D-446C-8DEA-5F9939A102F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4239812D-989D-446C-8DEA-5F9939A102F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B29A2182-1BDE-4AC2-8EE4-31593AEAE039}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B29A2182-1BDE-4AC2-8EE4-31593AEAE039}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B29A2182-1BDE-4AC2-8EE4-31593AEAE039}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B29A2182-1BDE-4AC2-8EE4-31593AEAE039}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ACE4B635-51A6-43DE-A1F7-D8653D9BBB6A}
+	EndGlobalSection
+EndGlobal

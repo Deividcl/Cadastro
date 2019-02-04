@@ -1,0 +1,11 @@
+c:\users\deivid.lemes\source\repos\heranca\heranca\bin\Debug\netcoreapp2.1\heranca.deps.json
+c:\users\deivid.lemes\source\repos\heranca\heranca\bin\Debug\netcoreapp2.1\heranca.runtimeconfig.json
+c:\users\deivid.lemes\source\repos\heranca\heranca\bin\Debug\netcoreapp2.1\heranca.runtimeconfig.dev.json
+c:\users\deivid.lemes\source\repos\heranca\heranca\bin\Debug\netcoreapp2.1\heranca.dll
+c:\users\deivid.lemes\source\repos\heranca\heranca\bin\Debug\netcoreapp2.1\heranca.pdb
+c:\users\deivid.lemes\source\repos\heranca\heranca\obj\Debug\netcoreapp2.1\heranca.csproj.CoreCompileInputs.cache
+c:\users\deivid.lemes\source\repos\heranca\heranca\obj\Debug\netcoreapp2.1\heranca.AssemblyInfoInputs.cache
+c:\users\deivid.lemes\source\repos\heranca\heranca\obj\Debug\netcoreapp2.1\heranca.AssemblyInfo.cs
+c:\users\deivid.lemes\source\repos\heranca\heranca\obj\Debug\netcoreapp2.1\heranca.dll
+c:\users\deivid.lemes\source\repos\heranca\heranca\obj\Debug\netcoreapp2.1\heranca.pdb
+c:\users\deivid.lemes\source\repos\heranca\heranca\obj\Debug\netcoreapp2.1\heranca.csprojAssemblyReference.cache
