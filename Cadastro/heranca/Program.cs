@@ -48,18 +48,16 @@ namespace Herança
                     Console.Clear();
                 }
 
-                if (Novo.Key == ConsoleKey.F5)
+                if (Novo.Key == ConsoleKey.F3)
                 {
                     do
                     {
-                        lista.ExcluirCadastro();
-
-                        Console.WriteLine("\n\t\t\t\t\tDeseja efetuar uma nova exclusão? ");
-                        Console.Write("\n\t\t\t\t\t [F1] Sim   |   [F2] Não");
-
+                        lista.AlterarDadosCadastrais();
+                        Console.WriteLine("\n\t\t\t\t Deseja efetuar uma nova alteração? ");
+                        Console.WriteLine("\t\t\t\t\t[F1] Sim" +
+                                          "\t[F2] Não");
                         Novo = Console.ReadKey();
                         Console.Clear();
-
                     } while (Novo.Key == ConsoleKey.F1);
                 }
 
@@ -79,18 +77,20 @@ namespace Herança
                     } while (Novo.Key == ConsoleKey.F1);
                 }
 
-                if (Novo.Key == ConsoleKey.F3)
+                if (Novo.Key == ConsoleKey.F5)
                 {
                     do
                     {
-                        lista.AlterarDadosCadastrais();
-                        Console.WriteLine("\n\t\t\t\t Deseja efetuar uma nova alteração? ");
-                        Console.WriteLine("\t\t\t\t\t[F1] Sim" +
-                                          "\t[F2] Não");
+                        lista.ExcluirCadastro();
+
+                        Console.WriteLine("\n\t\t\t\t\tDeseja efetuar uma nova exclusão? ");
+                        Console.Write("\n\t\t\t\t\t [F1] Sim   |   [F2] Não");
+
                         Novo = Console.ReadKey();
                         Console.Clear();
+
                     } while (Novo.Key == ConsoleKey.F1);
-                }         
+                }     
 
             } while (Novo.Key != ConsoleKey.F8); // != diferente, sai do console de cadastro          
         }   
