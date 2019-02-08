@@ -11,7 +11,6 @@ namespace Herança
 
             ListaDePessoas lista = new ListaDePessoas(); //Foi instanciado um novo objeto lista dentro da class program
             ListaDePessoas pessoas = new ListaDePessoas();
-            AlterarDadosCadastrados ListaDeCadastrados = new AlterarDadosCadastrados();
             do
             {
                 Console.WriteLine("\t\t\t\t\t\tMenu de cadastros");
