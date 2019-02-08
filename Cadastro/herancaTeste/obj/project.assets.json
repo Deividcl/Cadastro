@@ -5860,11 +5860,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\deivid.lemes\\source\\repos\\heranca\\herancaTeste\\herancaTeste.csproj",
+      "projectUniqueName": "C:\\Users\\deivid.lemes\\source\\repos\\Cadastro\\herancaTeste\\herancaTeste.csproj",
       "projectName": "herancaTeste",
-      "projectPath": "C:\\Users\\deivid.lemes\\source\\repos\\heranca\\herancaTeste\\herancaTeste.csproj",
+      "projectPath": "C:\\Users\\deivid.lemes\\source\\repos\\Cadastro\\herancaTeste\\herancaTeste.csproj",
       "packagesPath": "C:\\Users\\deivid.lemes\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\deivid.lemes\\source\\repos\\heranca\\herancaTeste\\obj\\",
+      "outputPath": "C:\\Users\\deivid.lemes\\source\\repos\\Cadastro\\herancaTeste\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

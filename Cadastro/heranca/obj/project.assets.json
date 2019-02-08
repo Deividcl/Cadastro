@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\users\\deivid.lemes\\source\\repos\\heranca\\heranca\\heranca.csproj",
+      "projectUniqueName": "C:\\Users\\deivid.lemes\\source\\repos\\Cadastro\\heranca\\heranca.csproj",
       "projectName": "heranca",
-      "projectPath": "c:\\users\\deivid.lemes\\source\\repos\\heranca\\heranca\\heranca.csproj",
+      "projectPath": "C:\\Users\\deivid.lemes\\source\\repos\\Cadastro\\heranca\\heranca.csproj",
       "packagesPath": "C:\\Users\\deivid.lemes\\.nuget\\packages\\",
-      "outputPath": "c:\\users\\deivid.lemes\\source\\repos\\heranca\\heranca\\obj\\",
+      "outputPath": "C:\\Users\\deivid.lemes\\source\\repos\\Cadastro\\heranca\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
