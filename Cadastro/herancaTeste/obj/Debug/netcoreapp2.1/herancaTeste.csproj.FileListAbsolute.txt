@@ -1,0 +1,13 @@
+C:\Users\deivid.lemes\source\repos\Cadastro\herancaTeste\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\deivid.lemes\source\repos\Cadastro\herancaTeste\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\deivid.lemes\source\repos\Cadastro\herancaTeste\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\deivid.lemes\source\repos\Cadastro\herancaTeste\bin\Debug\netcoreapp2.1\herancaTeste.deps.json
+C:\Users\deivid.lemes\source\repos\Cadastro\herancaTeste\bin\Debug\netcoreapp2.1\herancaTeste.runtimeconfig.json
+C:\Users\deivid.lemes\source\repos\Cadastro\herancaTeste\bin\Debug\netcoreapp2.1\herancaTeste.runtimeconfig.dev.json
+C:\Users\deivid.lemes\source\repos\Cadastro\herancaTeste\bin\Debug\netcoreapp2.1\herancaTeste.dll
+C:\Users\deivid.lemes\source\repos\Cadastro\herancaTeste\bin\Debug\netcoreapp2.1\herancaTeste.pdb
+C:\Users\deivid.lemes\source\repos\Cadastro\herancaTeste\obj\Debug\netcoreapp2.1\herancaTeste.csproj.CoreCompileInputs.cache
+C:\Users\deivid.lemes\source\repos\Cadastro\herancaTeste\obj\Debug\netcoreapp2.1\herancaTeste.AssemblyInfoInputs.cache
+C:\Users\deivid.lemes\source\repos\Cadastro\herancaTeste\obj\Debug\netcoreapp2.1\herancaTeste.AssemblyInfo.cs
+C:\Users\deivid.lemes\source\repos\Cadastro\herancaTeste\obj\Debug\netcoreapp2.1\herancaTeste.dll
+C:\Users\deivid.lemes\source\repos\Cadastro\herancaTeste\obj\Debug\netcoreapp2.1\herancaTeste.pdb
