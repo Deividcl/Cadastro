@@ -1,7 +1,7 @@
 using System;
 using Xunit;
 
-namespace herancaTeste
+namespace CadastroPessoaCRUDteste
 {
     public class UnitTest1
     {

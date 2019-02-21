@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "heranca", "heranca\heranca.csproj", "{4239812D-989D-446C-8DEA-5F9939A102F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CadastroPessoaCRUD", "heranca\CadastroPessoaCRUD.csproj", "{4239812D-989D-446C-8DEA-5F9939A102F4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "herancaTeste", "herancaTeste\herancaTeste.csproj", "{B29A2182-1BDE-4AC2-8EE4-31593AEAE039}"
 EndProject

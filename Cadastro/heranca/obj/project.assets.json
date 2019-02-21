@@ -694,9 +694,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\deivid.lemes\\source\\repos\\Cadastro\\heranca\\heranca.csproj",
-      "projectName": "heranca",
-      "projectPath": "C:\\Users\\deivid.lemes\\source\\repos\\Cadastro\\heranca\\heranca.csproj",
+      "projectUniqueName": "C:\\Users\\deivid.lemes\\source\\repos\\Cadastro\\heranca\\CadastroPessoaCRUD.csproj",
+      "projectName": "CadastroPessoaCRUD",
+      "projectPath": "C:\\Users\\deivid.lemes\\source\\repos\\Cadastro\\heranca\\CadastroPessoaCRUD.csproj",
       "packagesPath": "C:\\Users\\deivid.lemes\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\deivid.lemes\\source\\repos\\Cadastro\\heranca\\obj\\",
       "projectStyle": "PackageReference",

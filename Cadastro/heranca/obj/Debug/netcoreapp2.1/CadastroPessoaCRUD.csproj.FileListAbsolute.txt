@@ -1,0 +1,11 @@
+C:\Users\deivid.lemes\source\repos\Cadastro\heranca\bin\Debug\netcoreapp2.1\CadastroPessoaCRUD.deps.json
+C:\Users\deivid.lemes\source\repos\Cadastro\heranca\bin\Debug\netcoreapp2.1\CadastroPessoaCRUD.runtimeconfig.json
+C:\Users\deivid.lemes\source\repos\Cadastro\heranca\bin\Debug\netcoreapp2.1\CadastroPessoaCRUD.runtimeconfig.dev.json
+C:\Users\deivid.lemes\source\repos\Cadastro\heranca\bin\Debug\netcoreapp2.1\CadastroPessoaCRUD.dll
+C:\Users\deivid.lemes\source\repos\Cadastro\heranca\bin\Debug\netcoreapp2.1\CadastroPessoaCRUD.pdb
+C:\Users\deivid.lemes\source\repos\Cadastro\heranca\obj\Debug\netcoreapp2.1\CadastroPessoaCRUD.csprojAssemblyReference.cache
+C:\Users\deivid.lemes\source\repos\Cadastro\heranca\obj\Debug\netcoreapp2.1\CadastroPessoaCRUD.csproj.CoreCompileInputs.cache
+C:\Users\deivid.lemes\source\repos\Cadastro\heranca\obj\Debug\netcoreapp2.1\CadastroPessoaCRUD.AssemblyInfoInputs.cache
+C:\Users\deivid.lemes\source\repos\Cadastro\heranca\obj\Debug\netcoreapp2.1\CadastroPessoaCRUD.AssemblyInfo.cs
+C:\Users\deivid.lemes\source\repos\Cadastro\heranca\obj\Debug\netcoreapp2.1\CadastroPessoaCRUD.dll
+C:\Users\deivid.lemes\source\repos\Cadastro\heranca\obj\Debug\netcoreapp2.1\CadastroPessoaCRUD.pdb

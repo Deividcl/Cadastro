@@ -1,6 +1,6 @@
-﻿using heranca; //Permitir acesso a um membro
-using System; //Permitir acesso a determinadas bibliotecas 
-namespace Herança
+﻿using System; 
+
+namespace CadastroPessoaCRUD
 {
     public class Program //Acesso publico com o retorno de uma classe nomeada Program (Principal)
     {
@@ -26,7 +26,7 @@ namespace Herança
                 if (opcaoDoUsuario.Key == ConsoleKey.F1) //Ao clicar a tecla f1, vai ser iniciado um novo cadastro
                 { 
                     pessoasCRUD.Cadastrar(); //Dentro da classe ListaDePessoas foi criado um metodo cadastrar onde é passado todas as informaçoes necessarias para efetuar
-                                           //um novo cadastro no console, essa linha é para queseja trazido estas informações para dentro do codigo  e dar continuidade.
+                                             //um novo cadastro no console, essa linha é para queseja chamada estas informações para dentro do codigo  e dar continuidade.
                      Console.Clear();
                 }
             

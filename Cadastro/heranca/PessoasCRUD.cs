@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace heranca
+namespace CadastroPessoaCRUD //pode ter varios namespace...
 {
-    public class PessoasCRUD : Pessoa //Classe com acesso publico onde a class PessoasCRUD está herdando os atributos de Pessoa
+    public class PessoasCRUD //Classe com acesso publico/modificador onde a class PessoasCRUD está herdando os atributos de Pessoa
     {
-        private List<Pessoa> lista = new List<Pessoa>(); //Foi criado uma lista privada com o nome de lista
+        private List<Pessoa> lista = new List<Pessoa>(); //Foi criado uma lista privada com o nome de lista        
         private Pessoa pessoa;                          //Foi criado um objeto pessoa            
-        
+        //instanciar pessoa em lista privada
         public void Cadastrar() //Metodo publico sem retorno com o nome do metodo Cadastrar -- não possui argumentos
-        {            
+        {
             pessoa = new Pessoa(); /*este objeto pessoa fica criando uma nova pessoa com novas informações sempre que o while voltar no começo do codigo,
                                    para assim definir uma nova pessoa com novas informações.*/
 
@@ -44,33 +44,11 @@ namespace heranca
                 Console.WriteLine("\t\t\t\t\tUsuário já está cadastrado.");
             }
 
-            Console.ReadKey(); //mantem as informaçoes na tela
+            Console.ReadKey();
         }
-
-        private Pessoa BuscaDePessoas(string cpf) //metodo privado onde só vai ser ultilizado dentro da classe PessoasCRUD , onde vai retornar uma pessoa
-        // nome do metodo BuscaDePessoas com um argumento string por ser uma cadeia de caracteres e cpf, que seria o atributo analisado
-        {                                
-            foreach (Pessoa p in lista) //itera dentro da lista uma pessoa
-            {
-                if (p != null) //se Pessoa que seria p, nao estiver vazia ele a remove
-                {
-                    lista.Remove(p); //lista= onde é armazedado as informaçoes e Remove(p) remove a pessoa da lista onde o atributo cpf ja exista
-                    Console.WriteLine("\n\t\t\t\t\tCadastro excluido com sucesso!");
-                }
-                else //Se estiver vazio ele me retorna uma mensagem de aviso
-                {
-                    Console.WriteLine("\t\t\t\t\tUsuário não possui cadastro");
-                }
-
-                Console.ReadKey(); //mantem as informações na tela
-            }
-            return null; //o atributo de retorno foi vazio, indo para a condição if acima.
-        }
-
-        //Metodo publico sem retorno, que mostra as informações da pessoa que foi cadastrada
+      
         public void Listar()
         {
-            //Este foreach diz sera listado as informaçoes da nova pessoa
             foreach (Pessoa p in lista)
             {
                 p.MostrarInformacoes();
@@ -79,21 +57,20 @@ namespace heranca
             Console.ReadKey();
         }      
 
-        public void Excluir() //Metodo publico sem retorno com o nome do metodo Excluir() sem nenhum argumento
+        public void Excluir() 
         {          
-            Console.WriteLine("\t\t\t\t\tInsira o CPF cadastrado: ");//Solicitei uma informação
+            Console.WriteLine("\t\t\t\t\tInsira o CPF cadastrado: ");
             Console.Write("\n\t\t\t\t\t");
-            var cpfParaBusca = Console.ReadLine(); //Armazena a informaçao pedida em uma variavel
+            var cpfParaBusca = Console.ReadLine(); 
 
-            Pessoa pessoaExiste = EncontrarPesssoaNaLista(cpfParaBusca); //instancio uma variavel em Pessoa onde sera recebido as informações do Metodo Privado
-            //EncontrarPessoaNaLista que recebe como argumento o informação armazenada na variavel cpfParaBusca
+            Pessoa pessoaExiste = EncontrarPesssoaNaLista(cpfParaBusca); 
 
-            if (pessoaExiste != null) //Se a variavel pessoaExiste nao estiver vazia
+            if (pessoaExiste != null)
             {
-                lista.Remove(pessoaExiste); // remover da lista o atributo que é igual a variavel 
+                lista.Remove(pessoaExiste); 
                 Console.WriteLine("\n\t\t\t\t\tCadastro excluido com sucesso!");
             }
-            else //caso esteja vazia ele me retorna uma mensagem 
+            else
             {
                 Console.WriteLine("\t\t\t\t\tUsuário não possui cadastro");
             }
@@ -101,56 +78,54 @@ namespace heranca
             Console.ReadKey();
         }
         
-        public void Alterar() //Metodo publico sem retorno nomeado como alterar() sem argumentos
+        public void Alterar() 
         {
-            Console.WriteLine("\t\t\t\t\tQual pessoa você deseja alterar as informações? ");
+            Console.WriteLine("\t\t\t\t\tInsira o CPF da pessoa: ");
             Console.Write("\t\t\t\t\t");
             var cpfParaBusca = Console.ReadLine();
 
-            Pessoa p = EncontrarPesssoaNaLista(cpfParaBusca);//Cria uma variavel p em Pessoa que recebe EncontrarPessoaNaLista com variavel cpfParaBusca como argumento
+            Pessoa pessoa = EncontrarPesssoaNaLista(cpfParaBusca);
 
             Console.WriteLine("\t\t\t\t\tQual informação você deseja alterar? ");
             Console.Write("\t\t\t\t\t");
             var atributoDeTroca = Console.ReadLine();
 
-            bool encontrar = ValidarAtributoDePessoaNaLista(atributoDeTroca); //uma variavel booleana onde so me retorna true ou false
-            //recebe as informaçoes de ValidarAtributoDePessoaNaLista rebenedo como argumento a variavel atributo de troca.
+            bool encontrar = ValidarAtributoDePessoaNaLista(atributoDeTroca);
 
-            if (p != null && encontrar == true) //se p nao estiver vazio e a variavel booleana encontrar for verdadeiro
+            if (pessoa != null && encontrar == true) 
             {
                 Console.WriteLine("\t\t\t\t\tInsira a nova informação: ");
                 Console.Write("\t\t\t\t\t");
                 var novoAtributo = Console.ReadLine();
-
-                //ele solicita mais uma informaçao e condiciona a novas atribuições dependendo do valor escolhido anteriormente
+                
                 if (atributoDeTroca == "Nome")
                 {
-                    p.Nome = novoAtributo;
+                    pessoa.Nome = novoAtributo;
                 }
 
                 if (atributoDeTroca == "Idade")
                 {
-                    p.Idade = novoAtributo;
+                    pessoa.Idade = novoAtributo;
                 }
 
                 if (atributoDeTroca == "Cor")
                 {
-                    p.Cor = novoAtributo;
+                    pessoa.Cor = novoAtributo;
                 }
 
                 if (atributoDeTroca == "Altura")
                 {
-                    p.Altura = novoAtributo;
+                    pessoa.Altura = novoAtributo;
                 }
 
                 if (atributoDeTroca == "CPF")
                 {
-                    p.CPF = novoAtributo;
+                    pessoa.CPF = novoAtributo;
                 }
 
                 Console.WriteLine("\t\t\t\t\tAlteração realizada com sucesso!");
             }
-            else //caso as condições nao forem verdadeiras ele me retorna uma informação de nao sucesso
+            else 
             {
                 Console.WriteLine("\t\t\t\t\tUsuário não possui cadastro ou informação incorreta ");
             }
@@ -164,11 +139,11 @@ namespace heranca
             Console.Write("\t\t\t\t\t");
             var cpfParaBusca = Console.ReadLine();
 
-            Pessoa p = EncontrarPesssoaNaLista(cpfParaBusca);
+            Pessoa pessoa = EncontrarPesssoaNaLista(cpfParaBusca);
 
-            if (p != null)
+            if (pessoa != null)
             {
-                p.MostrarInformacoes();
+                pessoa.MostrarInformacoes();
             }
             else
             {
@@ -177,9 +152,17 @@ namespace heranca
 
             Console.ReadKey();
          }
-        //private ou publico = visibilidade da função, Pessoa = Retorno, "EncontrarPesssoaNaLista" nome do metodo(parametros);
         private Pessoa EncontrarPesssoaNaLista(string cpf)
         {
+        /*
+            for(int i = 0; i < lista.Count; i++)
+            {
+                if (lista[i].CPF == cpf)
+                {
+                    return lista[i];
+                }
+            }
+        */
             //foreach = iteração dentro da lista de elementos
             foreach (Pessoa p in lista) 
             {
@@ -190,7 +173,6 @@ namespace heranca
             }
             return null; 
         }
-        //
         private bool ValidarAtributoDePessoaNaLista(string atributo)
         {
             if (atributo == "Nome" || atributo == "CPF" || atributo == "Altura" || atributo == "Cor" || atributo == "Idade")
@@ -198,6 +180,6 @@ namespace heranca
                 return true;
             }
             return false; //boll
-        }//Solid Single Responsibility Principle = Dar a classe uma responsabilidade, ex: se a classe for retangulo, ela tem a responsabilidade de 
-    }    //conter ações referentes a ele.
-}        //Solid 
+        }
+    }    
+}        
